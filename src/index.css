@@ -1,0 +1,73 @@
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link{
+    @apply text-dusk-white text-base font-poppins font-medium leading-7 capitalize
+  }
+  .commonBtn{
+    @apply text-white text-base font-poppins font-medium leading-7 capitalize px-12 py-4 rounded-half border-btn-border border-2 hover:text-black hover:bg-yellow inline-block
+  }
+  .bannerHeading{
+    @apply  text-white font-poppins text-large font-semibold leading-extra-loose
+  }
+  .paragraph{
+    @apply text-white text-base font-poppins font-normal leading-7 opacity-70
+  }
+  .subHeading {
+    @apply text-dark-blue text-5xl font-poppins font-semibold leading-64px
+  }
+  .miniHeading {
+    @apply text-dark-blue text-miniHeading font-poppins font-medium leading-48px capitalize
+  }
+  .getLink {
+    @apply text-royal-blue text-lg font-poppins font-medium leading-8 flex items-center gap-x-4 cursor-pointer
+  }
+  .view {
+    @apply text-yellow text-base font-poppins font-medium leading-7 capitalize flex items-center gap-x-4 cursor-pointer
+  }
+  .img {
+    @apply w-full h-full object-cover
+  }
+  .cardHeading {
+    @apply text-white text-2xl font-poppins font-semibold leading-9 capitalize
+  }
+  .smallHeading {
+    @apply text-base text-dark-blue font-poppins font-medium capitalize leading-7
+  }
+  .icon {
+    @apply text-3xl text-royal-blue 
+  }
+  .midHeading {
+    @apply text-midHeading text-dark-blue font-poppins font-semibold leading-56px
+  }
+  .angleIcon {
+    @apply text-dark-blue text-5xl bg-white p-3 rounded-full cursor-pointer opacity-70 hover:bg-royal-blue hover:text-white
+  }
+  .number {
+    @apply text-royal-blue text-2xl font-poppins font-medium leading-9
+  }
+  .input {
+    @apply w-full bg-transparent text-white py-18px pl-8 border-soft-white border-1.5 rounded-lg placeholder:capitalize placeholder:text-soft-gray
+  }
+  .buildBtn {
+    @apply w-full text-center text-black text-base bg-yellow font-manrope font-medium leading-7 py-4 rounded-half border-transparent hover:border-btn-border border-2 hover:text-white hover:bg-transparent inline-block mt-10 
+  }
+  .aboutMiniHeading {
+    @apply text-dark-blue text-base font-poppins font-medium leading-7
+  }
+  .design{
+    @apply text-lg text-dark-blue font-poppins font-normal capitalize leading-8 hover:text-royal-blue opacity-70 hover:opacity-100
+  }
+  .keyword {
+    @apply text-dark-blue text-lg font-normal font-poppins leading-8 opacity-70 capitalize hover:text-royal-blue hover:opacity-100
+  }
+  .contact-txt {
+    @apply text-black text-lg font-poppins font-medium capitalize
+  }
+  .contact-input {
+    @apply w-438px py-18px px-8 bg-transparent text-lg border border-halka-black rounded-lg placeholder:text-base placeholder:capitalize
+  }
+}
